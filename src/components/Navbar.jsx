@@ -8,12 +8,13 @@ export default function Navbar() {
 
   // Nav items: anchors scroll on home, routes navigate pages
   const navItems = [
-    { name: 'Home',        type: 'route',  to: '/' },
-    { name: 'About Us',    type: 'anchor', to: '#about-us' },
-    { name: 'Achievements', type: 'anchor', to: '#recent-work' },
-    { name: 'Gallery',     type: 'route',  to: '/gallery' },
-    { name: 'Team',        type: 'route',  to: '/team' },
-    { name: 'Contact Us',  type: 'route',  to: '/contact-us' },
+    { name: 'Home',           type: 'route',  to: '/' },
+    { name: 'About Us',       type: 'anchor', to: '#about-us' },
+    { name: 'Achievements',   type: 'anchor', to: '#achievements' },
+    { name: 'Gallery',        type: 'route',  to: '/gallery' },
+    { name: 'Recent Works',   type: 'route',  to: '/recent-works' },
+    { name: 'Team',           type: 'route',  to: '/team' },
+    { name: 'Contact Us',     type: 'route',  to: '/contact-us' },
   ];
 
   // Scroll or navigate for anchor links
@@ -32,7 +33,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
         {/* Logo */}
         <NavLink to="/" className="text-2xl font-bold text-white">
-           Team Force Hyperloop
+          Team Force Hyperloop
         </NavLink>
 
         {/* Desktop Menu */}

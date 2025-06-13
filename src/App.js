@@ -10,7 +10,7 @@ import RecentWorkPage from './pages/RecentWorkPage';
 import TeamPage from './pages/TeamPage';
 import ContactPage from './pages/ContactPage';
 import GalleryPage from './pages/GalleryPage';
-
+import RecentWorksPage from './pages/RecentWorksPage';
 export default function App() {
   return (
     <BrowserRouter>
@@ -23,6 +23,7 @@ export default function App() {
           <Route path="/team" element={<TeamPage />} />
           <Route path="/contact-us" element={<ContactPage />} />
           <Route path="/gallery" element={<GalleryPage />} />
+          <Route path="/recent-works" element={<RecentWorksPage />} />
         </Routes>
       </main>
       <Footer />

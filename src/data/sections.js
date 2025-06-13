@@ -13,19 +13,20 @@ export const aboutUs = {
 };
 
 
-export const recentWork = [
+// src/data/sections.js
+
+export const achievements = [
   {
     title: "GHC (Global Hyperloop Competition)",
     description: "From 21–24 February 2025, our team represented NIT Trichy at the Global Hyperloop Competition (GHC) held at IIT Madras, showcasing our technical expertise, creative design solutions, and strategic problem-solving skills on a national stage.",
-    imageUrl: "/images/work-ghc.jpg",
-    link: "#", 
+    image: "/images/work-ghc.jpg",
   },
   {
-    title: "The Hyperloop Effect – Parivahan: The Global Hyperloop Conference",
+    title: "Parivahan: The Global Hyperloop Conference",
     description: "At Parivahan (The Global Hyperloop Conference) on 20 April 2024, Force Hyperloop presented feasibility studies on geopolymer tunnel composites and solar-powered vacuum pumps, winning Best Poster and Case Presentation among 1,100+ teams.",
-    imageUrl: "/images/work-parivahan.jpg",
-    link: "#",
+    image: "/images/work-parivahan.jpg",
   },
+  // …any additional items…
 ];
 
 
@@ -61,4 +62,33 @@ export const galleryItems = [
   { src: "/images/gallery/p3.jpg", alt: "" },
   { src: "/images/gallery/p4.jpg", alt: "" },
   // …add as many as you like
+];
+
+
+export const recentWorksList = [
+  {
+    id: 'work1',
+    title: "Pod Aerodynamics Study",
+    description: "CFD analysis on nose cone geometries to reduce drag.",
+  },
+  {
+    id: 'work2',
+    title: "MagLev Test Rig Report",
+    description: "Design and results of our magnetic levitation proof-of-concept.",
+  },
+  // …
+];
+
+
+export const recentWork = [
+  {
+    title: "GHC (Global Hyperloop Competition)",
+    description: "From 21–24 February 2025, our team represented NIT Trichy at the Global Hyperloop Competition (GHC) held at IIT Madras, showcasing our technical expertise, creative design solutions, and strategic problem-solving skills on a national stage.",
+    imageUrl: "/images/work-ghc.jpg",
+  },
+  {
+    title: "The Hyperloop Effect – Parivahan: The Global Hyperloop Conference",
+    description: "At Parivahan (The Global Hyperloop Conference) on 20 April 2024, Force Hyperloop presented feasibility studies on geopolymer tunnel composites and solar-powered vacuum pumps, winning Best Poster and Case Presentation among 1,100+ teams.",
+    imageUrl: "/images/work-parivahan.jpg",
+  },
 ];
