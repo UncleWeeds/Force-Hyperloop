@@ -8,7 +8,7 @@ export const hero = {
 
 export const aboutUs = {
   heading: "About Our Team",
-  text: `We are a student-led Hyperloop team from NIT Trichy, passionate about pushing the limits of high-speed transport. Our multidisciplinary group works on pod design, control systems, levitation, and track infrastructure to make Hyperloop a reality.`,
+  text: `Force Hyperloop is a multidisciplinary, student-led R&D team at NIT Tiruchirappalli dedicated to advancing affordable, energy-efficient hyperloop transit through hands-on experimentation, innovative design and collaboration across Mechanical, Electrical, Electronics and Computer Science disciplines. By continually refining our pod architectures and subsystems and showcasing our technical and business strengths at events like the Global Hyperloop Competition at IIT Madras, we strive to develop a scalable, sustainable high-speed transport solution—and we welcome passionate students and industry partners to join us in shaping the future of rapid mobility.`,
   imageUrl: "/images/about-us.jpg" // put your image in public/images/
 };
 
@@ -18,13 +18,13 @@ export const aboutUs = {
 export const achievements = [
   {
     title: "GHC (Global Hyperloop Competition)",
-    description: "From 21–24 February 2025, our team represented NIT Trichy at the Global Hyperloop Competition (GHC) held at IIT Madras, showcasing our technical expertise, creative design solutions, and strategic problem-solving skills on a national stage.",
-    image: "/images/work-ghc.jpg",
+    description: "At the 2025 Global Hyperloop Competition at IIT Madras, Force Hyperloop earned top honors in both the Hyperloop Network and Business & Social Impact categories—testament to our dedication to pioneering research, practical implementation, and the evolution of high‐speed transit. We gratefully acknowledge the support and funding from our institute, RECAL, and alumni from the 1986, 1990, and 1999 batches, as well as Scient, whose generosity has been instrumental in driving our success.",
+    image: "/images/gallery/p4.jpg",
   },
   {
     title: "Parivahan: The Global Hyperloop Conference",
-    description: "At Parivahan (The Global Hyperloop Conference) on 20 April 2024, Force Hyperloop presented feasibility studies on geopolymer tunnel composites and solar-powered vacuum pumps, winning Best Poster and Case Presentation among 1,100+ teams.",
-    image: "/images/work-parivahan.jpg",
+    description: "Our team secured First Place for case study competition at the Parivaahan Hyperloop Conference 2024, organized by IIT Madras. Competing against top engineering institutions across India, our team stood out for its innovative system design and feasibility analysis of Hyperloop infrastructure tailored to Indian conditions.",
+    image: "/images/work-ghc.jpg",
   },
   // …any additional items…
 ];
@@ -33,24 +33,19 @@ export const achievements = [
 // src/data/sections.js
 
 export const teamMembers = [
-  {
-    name: "Yeswanth Naidu",
-    role: "Project Lead",
-  },
+
   {
     name: "Aatman Patel",
-    role: "Aerodynamics Engineer",
+    role: "President",
   },
   {
     name: "Sohan Chakraborty",
-    role: "Control Systems",
-  },
+    role: "Vice President",
+  }, 
   {
-    name: "Abhiramsai",
-    role: "GOD",
-//    photoUrl: "/images/team/david.jpg",
+    name: "Yeswanth Naidu",
+    role: "Treasurer",
   },
-  // …etc…
 ];
 
 
@@ -61,6 +56,8 @@ export const galleryItems = [
   { src: "/images/gallery/p2.jpg", alt: "" },
   { src: "/images/gallery/p3.jpg", alt: "" },
   { src: "/images/gallery/p4.jpg", alt: "" },
+  { src: "/images/gallery/p5.jpg", alt: "" },
+  { src: "/images/gallery/p6.jpg", alt: "" },
   // …add as many as you like
 ];
 
