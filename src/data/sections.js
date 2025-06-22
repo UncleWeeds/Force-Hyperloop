@@ -65,13 +65,13 @@ export const galleryItems = [
 export const recentWorksList = [
   {
     id: 'work1',
-    title: "Pod Aerodynamics Study",
-    description: "CFD analysis on nose cone geometries to reduce drag.",
+    title: "Optimizing Thermal Managment Strategies For Next-Generation Hyperloop Systems",
+    description: "",
   },
   {
     id: 'work2',
-    title: "MagLev Test Rig Report",
-    description: "Design and results of our magnetic levitation proof-of-concept.",
+    title: "Willing To Use And Pay For Hyperloop As a Transitmode",
+    description: "Perspective Of A Developing Economy",
   },
   // …
 ];

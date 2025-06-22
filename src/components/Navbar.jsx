@@ -6,18 +6,16 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const navigate = useNavigate();
 
-  // Nav items: anchors scroll on home, routes navigate pages
   const navItems = [
-    { name: 'Home',           type: 'route',  to: '/' },
-    { name: 'About Us',       type: 'anchor', to: '#about-us' },
-    { name: 'Achievements',   type: 'anchor', to: '#achievements' },
-    { name: 'Gallery',        type: 'route',  to: '/gallery' },
-    { name: 'Recent Works',   type: 'route',  to: '/recent-works' },
-    { name: 'Team',           type: 'route',  to: '/team' },
-    { name: 'Contact Us',     type: 'route',  to: '/contact-us' },
+    { name: 'Home',         type: 'route',  to: '/' },
+    { name: 'About Us',     type: 'anchor', to: '#about-us' },
+    { name: 'Achievements', type: 'anchor', to: '#achievements' },
+    { name: 'Gallery',      type: 'route',  to: '/gallery' },
+    { name: 'Recent Works', type: 'route',  to: '/recent-works' },
+    { name: 'Team',         type: 'route',  to: '/team' },
+    { name: 'Contact Us',   type: 'route',  to: '/contact-us' },
   ];
 
-  // Scroll or navigate for anchor links
   const handleAnchorClick = (hash) => {
     if (window.location.pathname !== '/') {
       navigate('/');
@@ -31,9 +29,16 @@ export default function Navbar() {
   return (
     <nav className="fixed w-full bg-black shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
-        {/* Logo */}
-        <NavLink to="/" className="text-2xl font-bold text-white">
-          Team Force Hyperloop
+        {/* Logo + Brand */}
+        <NavLink to="/" className="flex items-center">
+          <img
+            src="/images/logo.png"
+            alt="Team Force Hyperloop Logo"
+            className="h-8 w-8 mr-2"
+          />
+          <span className="text-2xl font-bold text-white">
+            Team Force Hyperloop
+          </span>
         </NavLink>
 
         {/* Desktop Menu */}
