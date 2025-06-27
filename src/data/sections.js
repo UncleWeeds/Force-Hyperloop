@@ -65,15 +65,20 @@ export const galleryItems = [
 export const recentWorksList = [
   {
     id: 'work1',
-    title: "Optimizing Thermal Managment Strategies For Next-Generation Hyperloop Systems",
-    description: "",
+    title: "Optimizing Thermal Management Strategies For Next-Generation Hyperloop Systems",
+    description:
+      "This research presents Force Hyperloop’s comprehensive thermal management strategy…",
+    // ← use the EMBED URL (not youtu.be)
+    videoUrl: "https://www.youtube.com/embed/Fy6q4HW8h_c?si=zUJvtcAUyfdjvzU7"
   },
   {
     id: 'work2',
     title: "Willing To Use And Pay For Hyperloop As a Transitmode",
-    description: "Perspective Of A Developing Economy",
+    description:
+      "Perspective Of A Developing Economy, This study by Force Hyperloop evaluates…",
+    videoUrl: "https://www.youtube.com/embed/hdMp6gT7GQs"
   },
-  // …
+  // …more works…
 ];
 
 
