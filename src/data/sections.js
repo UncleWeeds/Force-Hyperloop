@@ -67,15 +67,14 @@ export const recentWorksList = [
     id: 'work1',
     title: "Optimizing Thermal Management Strategies For Next-Generation Hyperloop Systems",
     description:
-      "This research presents Force Hyperloop’s comprehensive thermal management strategy…",
-    // ← use the EMBED URL (not youtu.be)
+      "This research presents Force Hyperloop’s comprehensive thermal management strategy for Hyperloop pods operating in near-vacuum conditions. It includes novel designs for battery, motor, and cabin cooling—using passive PCM, water jackets, and hybrid HVAC systems.",
     videoUrl: "https://www.youtube.com/embed/Fy6q4HW8h_c?si=zUJvtcAUyfdjvzU7"
   },
   {
     id: 'work2',
-    title: "Willing To Use And Pay For Hyperloop As a Transitmode",
+    title: "Willing To Use And Pay For Hyperloop As a Transitmode, Perspective Of A Developing Economy",
     description:
-      "Perspective Of A Developing Economy, This study by Force Hyperloop evaluates…",
+      "This study by Force Hyperloop evaluates India’s readiness to adopt Hyperloop as a transit mode. Using nationwide surveys and advanced modelling, it uncovers key factors driving willingness to use and pay.",
     videoUrl: "https://www.youtube.com/embed/hdMp6gT7GQs"
   },
   // …more works…
