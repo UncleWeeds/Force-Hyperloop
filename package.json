@@ -1,6 +1,7 @@
 {
   "name": "hyperloop-homepage",
   "version": "0.1.0",
+  "homepage": "https://ANANDA-SWAROOP.github.io/force-hyperloop",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
